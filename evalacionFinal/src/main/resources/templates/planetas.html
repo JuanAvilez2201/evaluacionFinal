@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Cliente Started: Serving Web Content</title>
+
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<body>
+	<div >
+		<div>
+			<p th:text="'UA: ' + ${startDTO.UA} " />
+				<p th:text="'id: ' + ${startDTO.id} " />
+				<p th:text="'milesk:  ' + ${startDTO.milesk} " />
+				<p th:text="'Ceres: ' + ${startDTO.Ceres} " />
+
+		</div>
+	
+	</div>
+	<br>
+	<br>
+	
+	<a href="/Municipios/001">Consumir siguiente api</a>
+	
+	<footer> Examen 2do Parcial </footer>
+</body> 
+
+</html>
